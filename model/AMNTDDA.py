@@ -27,8 +27,8 @@ class AMNTDDA(nn.Module):
         # 而 SAITS 模型需要的输入维度 (d_feature) 必须等于这个拼接后的维度
         assert args.d_feature == 2 * args.gt_out_dim, "特征维度必须匹配！"  #assert -Python 的断言关键字，判断条件，false就抛出"特征维度必须匹配！"异常
         #  输入投影层 (用于 HHGT 输入)
-        # 将药物原始特征（300维）映射到 HGT 需要的输入维度，将不同维度的原始特征，映射到同一个目标维度空间中
-        self.drug_linear = nn.Linear(300, args.hgt_in_dim)
+        # 将药物原始特征（300维）映射到 HHGT 需要的输入维度，将不同维度的原始特征，映射到同一个目标维度空间中
+        self.drug_linear = nn.Linear(300, args.hgt_in_dim)#300->64
         # 将蛋白质原始特征（320维）映射到 HGT 需要的输入维度，hgt_in_dim为变换后的目标维度
         # 将蛋白质原始特征 (320) -> 64
         self.protein_linear = nn.Linear(320, args.hgt_in_dim)
@@ -41,21 +41,21 @@ class AMNTDDA(nn.Module):
         # 初始化药物超图 Transformer
         self.gt_drug = HypergraphTransformer(
             device=device,
-            num_layers=args.gt_layer,
-            num_nodes=args.drug_number,
+            num_layers=args.gt_layer,#层数2
+            num_nodes=args.drug_number,#663
             num_hyperedges=args.drug_number * 3, # 假设 KNN 构图，超边数通常等于节点数
             # in_dim=args.gt_out_dim,          # 注意：这里需要确认输入的特征维度
             in_dim=300,
             out_dim=args.gt_out_dim,# 输出 200
-            num_heads=args.gt_head,
-            dropout=args.amdgt_dropout
+            num_heads=args.gt_head,#2
+            dropout=args.amdgt_dropout#0.2
         )
 
         # 初始化疾病超图 Transformer
         self.gt_disease = HypergraphTransformer(
             device=device,
             num_layers=args.gt_layer,
-            num_nodes=args.disease_number,
+            num_nodes=args.disease_number,#409
             num_hyperedges=args.disease_number * 3,
             in_dim=64,              # 疾病原始维度
             out_dim=args.gt_out_dim,# 输出 200

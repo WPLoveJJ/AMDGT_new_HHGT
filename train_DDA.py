@@ -423,7 +423,7 @@ if __name__ == '__main__':
     data = get_data(args)
     args.drug_number = data['drug_number']
     args.disease_number = data['disease_number']
-    args.protein_number = data['protein_number']
+    args.protein_number = data['protein_number']#993
 
     data = data_processing(data, args)
     data = k_fold(data, args)

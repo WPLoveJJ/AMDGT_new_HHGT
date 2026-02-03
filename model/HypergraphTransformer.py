@@ -141,7 +141,7 @@ class HypergraphTransformer(nn.Module):
     def __init__(self, device, num_layers, num_nodes, num_hyperedges, in_dim, out_dim, num_heads, dropout=0.0):
         super(HypergraphTransformer, self).__init__()
         self.device = device
-        self.num_layers = num_layers
+        self.num_layers = num_layers#2
         self.dropout = dropout
         
         # 1. 维度变换
@@ -149,19 +149,19 @@ class HypergraphTransformer(nn.Module):
         
         # 2. 超边位置编码 (Hyperedge Positional Encoding)
         # 利用关联矩阵 H 对节点进行位置编码
-        self.he_sparse_encoder = SparseLinear(num_hyperedges, out_dim)
-        
+        self.he_sparse_encoder = SparseLinear(num_hyperedges, out_dim)#SparseLinear特殊线性层，针对稀疏输入进行优化，降低计算开销并提高内存效率；num_hyperedges=1989，超边的总数量，out_dim(200),输出的维度，嵌入的尺寸，输出200维度的稠密矩阵
+    
         # 3. Transformer 层堆叠
-        self.convs = nn.ModuleList()
-        self.bns = nn.ModuleList()
+        self.convs = nn.ModuleList()#创建专门存放卷积层的容器
+        self.bns = nn.ModuleList()#创建专门存放归一化层的容器
         
-        for _ in range(num_layers):
+        for _ in range(num_layers):#循环构建多层结构
             self.convs.append(
                 HyperGTConv(out_dim, out_dim, num_heads=num_heads)
-            )
-            self.bns.append(nn.LayerNorm(out_dim))
+            )#定义超图卷积/转换层，每一层都会通过注意力机制更新节点和超边的表示，捕捉数据中的空间拓扑结构
+            self.bns.append(nn.LayerNorm(out_dim))#添加归一化层，防止在深层网络中梯度消失或爆炸，确保每一层输出的均值和方差稳定
             
-        self.activation = F.elu
+        self.activation = F.elu#设置激活函数ELU，与 ReLU 不同，ELU 在 x < 0 时有负值输出，这使得神经元的平均激活值更接近于零，从而加快学习速度，它在左侧是平滑的，比 ReLU 更抗噪
 
     def forward(self, x, H):
         """
