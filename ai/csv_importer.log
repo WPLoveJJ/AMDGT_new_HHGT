@@ -1,0 +1,7150 @@
+2025-08-24 23:06:54 - INFO - 初始化CSV导入器（目标日期: 2025-08-20, 时间戳: 1755619200000）
+2025-08-24 23:06:54 - DEBUG - Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2025-08-24 23:06:54 - DEBUG - https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww6fffc827ac483f35&corpsecret=DxTJu-VblBUVmeQHGaEKvtEzXTRHFSgSfbJIfP39okQ HTTP/1.1" 200 277
+2025-08-24 23:06:54 - INFO - 获取企微access_token成功
+2025-08-24 23:06:54 - INFO - 从CSV读取到 61 条目标日期数据
+2025-08-24 23:06:54 - INFO - 共需处理 61 个用户的数据
+2025-08-24 23:06:54 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=Hc6lDERbEpeWBdFX1uppmkBSPl1a6CACpZ6Lh5FZ6Zl3Bolrx8d2TjOa92EJLgBAJ0uPph20Gg8L8Cu2L95Wrfyds0laxS21bPqLxhSVECky81Bf1TsnvdbD59m-IElAcJxYmtCQjV6hPiupv-Hz-uSCd_ibM0hRKVkmleskjEaLpcdk65zjH5WjPrmHTBf78y6kC3VllNAPPRj-tQq_3A HTTP/1.1" 200 208
+2025-08-24 23:06:55 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=Hc6lDERbEpeWBdFX1uppmkBSPl1a6CACpZ6Lh5FZ6Zl3Bolrx8d2TjOa92EJLgBAJ0uPph20Gg8L8Cu2L95Wrfyds0laxS21bPqLxhSVECky81Bf1TsnvdbD59m-IElAcJxYmtCQjV6hPiupv-Hz-uSCd_ibM0hRKVkmleskjEaLpcdk65zjH5WjPrmHTBf78y6kC3VllNAPPRj-tQq_3A HTTP/1.1" 200 187
+2025-08-24 23:06:55 - INFO - 写入第 1 批数据（共 61 条）
+2025-08-24 23:06:55 - DEBUG - Starting new HTTPS connection (1): smallwecom.yesboss.work:443
+2025-08-24 23:06:56 - DEBUG - https://smallwecom.yesboss.work:443 "POST /smarttable HTTP/1.1" 200 2280
+2025-08-24 23:06:56 - INFO - 第 1 批写入成功
+2025-08-24 23:06:58 - INFO - 所有数据写入完成（共 61 条）
+2025-08-24 23:06:58 - INFO - 关闭网络会话
+2025-08-24 23:14:58 - INFO - 初始化CSV导入器（目标日期: 2025-08-20, 时间戳: 1755619200000）
+2025-08-24 23:14:58 - DEBUG - Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2025-08-24 23:14:58 - DEBUG - https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww6fffc827ac483f35&corpsecret=DxTJu-VblBUVmeQHGaEKvtEzXTRHFSgSfbJIfP39okQ HTTP/1.1" 200 277
+2025-08-24 23:14:58 - INFO - 获取企微access_token成功
+2025-08-24 23:14:58 - INFO - 从CSV读取到 61 条目标日期数据
+2025-08-24 23:14:58 - INFO - 共需处理 61 个用户的数据
+2025-08-24 23:14:58 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=ONoCaXMY89L7ZDfbVaUmbzCCsMZPokElc2TpWo3LztpEcMS5UmeWUz9kUHl2e5rw_mPbAf6AYgz2Gc5USWNNBy0saPI78A91sWw2RtEHemepeVcgIj9-H-B4Lx6at9ah-QhMt8EO1WlQteDaZda5ndwvgF53NqX78m9aKN6xItN6gQr6wXk2Fa_m0F5K9tdLofmTkXC3HaDMQ6jHl5c-pA HTTP/1.1" 200 208
+2025-08-24 23:14:59 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=ONoCaXMY89L7ZDfbVaUmbzCCsMZPokElc2TpWo3LztpEcMS5UmeWUz9kUHl2e5rw_mPbAf6AYgz2Gc5USWNNBy0saPI78A91sWw2RtEHemepeVcgIj9-H-B4Lx6at9ah-QhMt8EO1WlQteDaZda5ndwvgF53NqX78m9aKN6xItN6gQr6wXk2Fa_m0F5K9tdLofmTkXC3HaDMQ6jHl5c-pA HTTP/1.1" 200 187
+2025-08-24 23:14:59 - INFO - 写入第 1 批数据（共 61 条）
+2025-08-24 23:14:59 - DEBUG - Starting new HTTPS connection (1): smallwecom.yesboss.work:443
+2025-08-24 23:15:00 - DEBUG - https://smallwecom.yesboss.work:443 "POST /smarttable HTTP/1.1" 200 2280
+2025-08-24 23:15:00 - INFO - 第 1 批写入成功
+2025-08-24 23:15:02 - INFO - 所有数据写入完成（共 61 条）
+2025-08-24 23:15:02 - INFO - 关闭网络会话
+2025-08-24 23:18:37 - INFO - 初始化CSV导入器（目标日期: 2025-08-20, 时间戳: 1755619200000）
+2025-08-24 23:18:37 - DEBUG - Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2025-08-24 23:18:37 - DEBUG - https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww6fffc827ac483f35&corpsecret=DxTJu-VblBUVmeQHGaEKvtEzXTRHFSgSfbJIfP39okQ HTTP/1.1" 200 277
+2025-08-24 23:18:37 - INFO - 获取企微access_token成功
+2025-08-24 23:18:37 - INFO - 从CSV读取到 61 条目标日期数据
+2025-08-24 23:18:37 - INFO - 共需处理 61 个用户的数据
+2025-08-24 23:18:38 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=ONoCaXMY89L7ZDfbVaUmbzCCsMZPokElc2TpWo3LztpEcMS5UmeWUz9kUHl2e5rw_mPbAf6AYgz2Gc5USWNNBy0saPI78A91sWw2RtEHemepeVcgIj9-H-B4Lx6at9ah-QhMt8EO1WlQteDaZda5ndwvgF53NqX78m9aKN6xItN6gQr6wXk2Fa_m0F5K9tdLofmTkXC3HaDMQ6jHl5c-pA HTTP/1.1" 200 208
+2025-08-24 23:18:38 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=ONoCaXMY89L7ZDfbVaUmbzCCsMZPokElc2TpWo3LztpEcMS5UmeWUz9kUHl2e5rw_mPbAf6AYgz2Gc5USWNNBy0saPI78A91sWw2RtEHemepeVcgIj9-H-B4Lx6at9ah-QhMt8EO1WlQteDaZda5ndwvgF53NqX78m9aKN6xItN6gQr6wXk2Fa_m0F5K9tdLofmTkXC3HaDMQ6jHl5c-pA HTTP/1.1" 200 187
+2025-08-24 23:18:38 - INFO - 数据处理完成，共生成 61 条有效数据（所有数字字段已清洗）
+2025-08-24 23:18:38 - INFO - 写入第 1 批数据（共 61 条）
+2025-08-24 23:18:38 - DEBUG - Starting new HTTPS connection (1): smallwecom.yesboss.work:443
+2025-08-24 23:18:40 - DEBUG - https://smallwecom.yesboss.work:443 "POST /smarttable HTTP/1.1" 200 2280
+2025-08-24 23:18:40 - INFO - 第 1 批写入成功
+2025-08-24 23:18:41 - INFO - 所有数据写入完成（共 61 条，数字字段已清洗，日期统一为时间戳）
+2025-08-24 23:18:41 - INFO - 关闭网络会话
+2025-08-25 10:26:39 - INFO - 初始化CSV导入器（目标日期: 2025-08-20, 时间戳: 1755619200000）
+2025-08-25 10:26:39 - DEBUG - Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2025-08-25 10:26:39 - ERROR - 获取Token异常: HTTPSConnectionPool(host='qyapi.weixin.qq.com', port=443): Max retries exceeded with url: /cgi-bin/gettoken?corpid=ww6fffc827ac483f35&corpsecret=DxTJu-VblBUVmeQHGaEKvtEzXTRHFSgSfbJIfP39okQ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000016AD49D0820>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2025-08-25 10:26:39 - INFO - 关闭网络会话
+2025-08-25 10:26:44 - INFO - 初始化CSV导入器（目标日期: 2025-08-20, 时间戳: 1755619200000）
+2025-08-25 10:26:44 - DEBUG - Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2025-08-25 10:26:45 - DEBUG - https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww6fffc827ac483f35&corpsecret=DxTJu-VblBUVmeQHGaEKvtEzXTRHFSgSfbJIfP39okQ HTTP/1.1" 200 277
+2025-08-25 10:26:45 - INFO - 获取企微access_token成功
+2025-08-25 10:26:45 - INFO - 从CSV读取到 61 条目标日期数据
+2025-08-25 10:26:45 - INFO - 共需处理 61 个用户的数据
+2025-08-25 10:26:45 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=PnJWBzuuvSZtRJFijcE-0foH4y6JdOmtaqH-RXI7adRbMZr7urkoT9fvhm8yx6HQG8Ys8vp0wFmwj7KEkeGL64gmc9dpnmcTqEe0XBNUW_CUvQC-QkKk2cWs64_oKvMctfAXjPURsOjovSu7Q_jYPUOxfCsjhEHchxXFfwQX7jjQZt0-crYqKqFRPcshOBRXw9QQWrhtTIVXlthzavhO1A HTTP/1.1" 200 208
+2025-08-25 10:26:45 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=PnJWBzuuvSZtRJFijcE-0foH4y6JdOmtaqH-RXI7adRbMZr7urkoT9fvhm8yx6HQG8Ys8vp0wFmwj7KEkeGL64gmc9dpnmcTqEe0XBNUW_CUvQC-QkKk2cWs64_oKvMctfAXjPURsOjovSu7Q_jYPUOxfCsjhEHchxXFfwQX7jjQZt0-crYqKqFRPcshOBRXw9QQWrhtTIVXlthzavhO1A HTTP/1.1" 200 187
+2025-08-25 10:26:45 - INFO - 数据处理完成，共生成 61 条有效数据（所有数字字段已清洗）
+2025-08-25 10:26:45 - INFO - 写入第 1 批数据（共 61 条）
+2025-08-25 10:26:45 - DEBUG - Starting new HTTPS connection (1): smallwecom.yesboss.work:443
+2025-08-25 10:26:48 - DEBUG - https://smallwecom.yesboss.work:443 "POST /smarttable HTTP/1.1" 200 2280
+2025-08-25 10:26:48 - INFO - 第 1 批写入成功
+2025-08-25 10:26:49 - INFO - 所有数据写入完成（共 61 条，数字字段已清洗，日期统一为时间戳）
+2025-08-25 10:26:49 - INFO - 关闭网络会话
+2025-08-25 10:35:09 - INFO - 初始化CSV导入器（目标日期: 2025-08-20, 时间戳: 1755619200000）
+2025-08-25 10:35:09 - DEBUG - Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2025-08-25 10:35:09 - DEBUG - https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww6fffc827ac483f35&corpsecret=DxTJu-VblBUVmeQHGaEKvtEzXTRHFSgSfbJIfP39okQ HTTP/1.1" 200 277
+2025-08-25 10:35:09 - INFO - 获取企微access_token成功
+2025-08-25 10:35:09 - INFO - 从CSV读取到 61 条目标日期数据
+2025-08-25 10:35:09 - INFO - 共需处理 61 个用户的数据
+2025-08-25 10:35:10 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=PnJWBzuuvSZtRJFijcE-0foH4y6JdOmtaqH-RXI7adRbMZr7urkoT9fvhm8yx6HQG8Ys8vp0wFmwj7KEkeGL64gmc9dpnmcTqEe0XBNUW_CUvQC-QkKk2cWs64_oKvMctfAXjPURsOjovSu7Q_jYPUOxfCsjhEHchxXFfwQX7jjQZt0-crYqKqFRPcshOBRXw9QQWrhtTIVXlthzavhO1A HTTP/1.1" 200 208
+2025-08-25 10:35:10 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=PnJWBzuuvSZtRJFijcE-0foH4y6JdOmtaqH-RXI7adRbMZr7urkoT9fvhm8yx6HQG8Ys8vp0wFmwj7KEkeGL64gmc9dpnmcTqEe0XBNUW_CUvQC-QkKk2cWs64_oKvMctfAXjPURsOjovSu7Q_jYPUOxfCsjhEHchxXFfwQX7jjQZt0-crYqKqFRPcshOBRXw9QQWrhtTIVXlthzavhO1A HTTP/1.1" 200 187
+2025-08-25 10:35:10 - INFO - 数据处理完成，共生成 61 条有效数据（所有数字字段已清洗）
+2025-08-25 10:35:10 - INFO - 准备写入第 1 批数据（共 61 条）
+2025-08-25 10:35:10 - DEBUG - 第一条记录详细数据: {
+  "姓名": [
+    {
+      "type": "text",
+      "text": "向旭林"
+    }
+  ],
+  "人员": [
+    {
+      "type": "user",
+      "user_id": "wobb8UCgAA23FC7b4LWuaaZpGqNWqQ_w"
+    }
+  ],
+  "记录日期": "1755619200000",
+  "新增客户数": 0,
+  "发送消息数": 0,
+  "截至当天客户群总人数": 138,
+  "截至当天客户群消息总数": 0,
+  "医院ID": [
+    {
+      "type": "text",
+      "text": "1"
+    }
+  ],
+  "部门ID": [
+    {
+      "type": "text",
+      "text": "21"
+    }
+  ],
+  "所属部门": [
+    {
+      "type": "text",
+      "text": "花都家庭医生/家医助手团队"
+    }
+  ]
+}
+2025-08-25 10:35:10 - DEBUG - 完整写入请求体: {
+  "action": "通用批量写入表单",
+  "company": "花都家庭医生",
+  "WordList": {
+    "docid": "dcijMKYnKxjShY-j07ZOHvts5m58JesjOINDiFoLNuZLGLvCpilhV5P9UjJ8ABc1b9d_tFBRu_Xvl8FvmlZk1jXA",
+    "sheet_id": "tPQ8b9",
+    "view_id": "vflTWJ",
+    "records": [
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "向旭林"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA23FC7b4LWuaaZpGqNWqQ_w"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 138,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "1"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "21"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/家医助手团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "邓稳"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAArQbT3FjiAsSWiAf-nA8SSg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 8,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "1"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "21"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/家医助手团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "刘倩媚"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAvJwu2L2gFKywQ8JdFGYb_g"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 3,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "23"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/第一团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "曾结华"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAA1H6PlaI-p_Ts6N6CXxfTA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 2,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "33"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/慢病、传防管理团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "潘俊玲"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAABD56gYWo4ia57yBvDVePTg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 8,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "31"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/慢病管理团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "张银"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAANG0AAVOFslWNlpx9p5bNFw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 146,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "24"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/第二团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "江志澎"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAhvvnbGZkJqBSKr5oILnsjg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 2020,
+        "截至当天客户群消息总数": 9,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "27"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/第五团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "徐信仪"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAUPjeugLw1rP8b3uY4ROn2w"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 2,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "26"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/第四团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "王棠健"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAANT13MCi8dxcYrF5HeFywKw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 147,
+        "截至当天客户群消息总数": 10,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "5"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "35"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/清布社区卫生服务中心/健康护航家医团队2"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "花山江医生（第五团队）"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAYLDK2_lqGQPG9_yDcT6DOg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 9,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "27"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/第五团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "邓琪欣"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA14GxUz9oQkGVa1n0R-3Sfg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 2,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "1"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "124"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/家医小团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "曾家欢"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAfva6d86SwWO7m_muNDfO3g"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 5,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "5"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "34"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/清布社区卫生服务中心/健康护航家医团队1"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "曾宝玲"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAshdnXjWYCiPkIydkfpeXDg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 2,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "5"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "41"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/清布社区卫生服务中心/巾帼使者家医团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "汤莉辉"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAuCzsfZb9ebmLehdbEP1_BA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 3,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 25,
+        "截至当天客户群消息总数": 1,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "44"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第一团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "朱晓静"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAACrFvkM72NrvZiNUEe5J5xw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 6,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 62,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "45"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第二团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "韦佩珊"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAjcKkpq1ngqHbknuOWxvj2w"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 61,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "46"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第三团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "凌晓燕"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAE3oC-Jlv94MAaqiklCN1WA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 10,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "46"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第三团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "谭玉娟"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAETvkoHyXjlO7o8CYCws32w"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 132,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "47"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第四团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "宋跃飞"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAbPQDSOpL8Iq7RE__x-DxAg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 20,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "48"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第五团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "张映君"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAXSkIPProSL2YjIAe7FKjDQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 20,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "49"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第六团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "谢芳"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAQxY0LSJswWYEhZWJlv1IBw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 35,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "11"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "105,127"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇花侨卫生院/管理员/花都家庭医生/花东镇花侨卫生院/第六团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "杨文俊"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAZW_XVFv4yBYZkoQS83h44A"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "53"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/京塘村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "曾佰潮"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAkodwOnIt9qqGiOHP8md-Mg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "54"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/水口营/四联村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "吴珊珊"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAo10trjzV3EBhSVigiMBJQQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "55"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/港头/吉星村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "黄敬钊"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAyjl5H5n2EzWxizODyN1uNw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "56"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/大龙村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "刘美红"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAbNWAIgGdNP1P8eLvEp3brg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "57"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/鸿鹤村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "卢兴旺"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAyzGLe71KyyKqxlA1GIn6QA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 5,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 9,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "58"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/莘田村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "谢文威"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAABWV_kOStB4xLkLQftkpJpw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 2,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 10,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "59"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/莘田二村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "刘玉梅"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA7wiN_aO1QeD6dhH0aqxitA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 154,
+        "截至当天客户群消息总数": 3,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "61"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/杨三村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "黄婷女"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA7oCtCiuXik3FFluwQ5veKA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 2,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "62"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/镇东村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "黄灿辉"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAXvxuzNNk7TEZxCQfe1iUEw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "63"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/杨一村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "黄国威"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAWMj_0XguAREQ9Mq_y68C8g"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 109,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "64"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/杨二村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "江剑亮"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAo0fRpiuqs_vxhIfo6M2MzA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "65"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/望顶村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "阮孟玲"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAWhYkItHTgAaY3O2osyRYmA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "66"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/北兴居委（村）团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "曾娜"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAhVkPPan2pVSJKNl4XNnq3w"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "67"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/慢病团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "黎秀荷"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAhQSI129GuOzknxsfN9nUOQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "68"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/儿保团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "彭慧萍"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAJJa_7WOkMucj9LMfjDLdmA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 6,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "80"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第11团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "常国荣"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAix4b_gQkpqwgFsV4-C2Ucg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "78"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第9团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "周宏"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA_pk75Rolvp3JWWUIaxR5XA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "72"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第3团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "雷军"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA18Ix0xGPmTK_Q7NRB2bVuQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "73"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第4团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "黄焕峰"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAj7rrGZghP2qSEJyjkU_ArQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 2,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "79"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第10团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "杨晓春"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA1RhLhTkUGd2lBHJG-NGWrw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 3,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 8,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "76"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第7团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "王淑杰"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAPMQ0pRq_kGASMaGSI_pCTg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 2,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 45,
+        "截至当天客户群消息总数": 5,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "71"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第2团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "陈佩芸"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAGqBYWtHoFm-5vnTH-_53Ew"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 8,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "2"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "82"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/天贵社区卫生服务中心/凤凰团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "温慧婷"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAaW-_nn-Q3GF968WaMFR4ww"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "2"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "87,126"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/天贵社区卫生服务中心/管理层/花都家庭医生/天贵社区卫生服务中心/光华团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "吴雁榕"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAbrt49GHekpBlMDYaWqVGkg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 2,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "2"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "87"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/天贵社区卫生服务中心/光华团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "花山徐医生（第四团队）"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAvMTxC-dnEAxzIhQ5sE1Xdg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "26"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/第四团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "汤志琴"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAADxuVrG4CEvmDOnluKNiLMw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 10,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "12"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "96,129"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/炭步镇中心卫生院/第四团队/花都家庭医生/炭步镇中心卫生院/管理层"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "郭立雄"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA2tUjeTebJsWS9nUUAnHD9g"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 193,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "11"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "101"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇花侨卫生院/第一团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "叶东明"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAHa4Y-R42moxfAHT9eTzmEQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 17,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "11"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "102"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇花侨卫生院/第三团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "梁烨"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAweJmVtQKSpyQxBhEDMZ9rg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 2,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "11"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "102"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇花侨卫生院/第三团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "林岳滨"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAg_bv_12fRTc95m4bUd8ppA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 135,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "11"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "103"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇花侨卫生院/第四团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "胡艳芳"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAABNdRWahtGNbazYnO536EsQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 2,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "11"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "105"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇花侨卫生院/第六团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "清布家医温国丽团队"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAApLfqT6dqx5I43epXXus5nA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 152,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "5"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "43"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/清布社区卫生服务中心/宝贝卫士家医团队2"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "冯晓彤"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAxL7nug2wuZbxMWroPXJYMw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 2,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "4"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "111"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/新华社区卫生服务中心/第5团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "任伟鹏"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAf9BinJI6K-GHoiO5_GIAfQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 2,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "123"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/管理者"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "清布家医熊耀端团队"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA0mnEGlQoHCbAdb6FWW5Opw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 2,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "5"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "34"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/清布社区卫生服务中心/健康护航家医团队1"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "清布家医潘志懂团队"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAgLwB0fBzEgqPX_ljfIVs8g"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "5"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "39"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/清布社区卫生服务中心/医路相伴家医团队2"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "花山镇卫生院家庭医生"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAMRAvItmqGOgNT-HK4JeeDA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 4,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 0,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "张锦华"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAASzoh7u5ODvuxPNktii1uvw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 9,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "125"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/管理层"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "陈建华"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAmSe9Q9Np0o7JaGNpKGYsnA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "截至当天客户群总人数": 10,
+        "截至当天客户群消息总数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "125"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/管理层"
+          }
+        ]
+      }
+    ]
+  }
+}
+2025-08-25 10:35:10 - DEBUG - Starting new HTTPS connection (1): smallwecom.yesboss.work:443
+2025-08-25 10:35:11 - DEBUG - https://smallwecom.yesboss.work:443 "POST /smarttable HTTP/1.1" 200 2280
+2025-08-25 10:35:11 - INFO - 请求耗时: 1504.08ms | 状态码: 200
+2025-08-25 10:35:11 - DEBUG - 响应内容: {"success":true,"message":"通用批量写入表单成功","data":{"errcode":0,"errmsg":"ok","records":[{"record_id":"rRoAza","values":{}},{"record_id":"r4k1px","values":{}},{"record_id":"rnj9UV","values":{}},{"record_id":"rjEUy0","values":{}},{"record_id":"rJ58vr","values":{}},{"record_id":"r197nd","values":{}},{"record_id":"rEmJ8N","values":{}},{"record_id":"rh02NX","values":{}},{"record_id":"rZi7Mm","values":{}},{"record_id":"rbpUhM","values":{}},{"record_id":"rNPFY0","values":{}},{"record_id":"r0kYc3","values":
+2025-08-25 10:35:11 - INFO - ✅ 第 1 批写入成功
+2025-08-25 10:35:13 - INFO - 写入完成 | 成功: 61条, 失败: 0条
+2025-08-25 10:35:13 - INFO - 关闭网络会话
+2025-08-25 10:44:42 - INFO - 初始化CSV导入器（目标日期: 2025-08-20, 时间戳: 1755619200000）
+2025-08-25 10:44:42 - DEBUG - Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2025-08-25 10:44:43 - DEBUG - https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww6fffc827ac483f35&corpsecret=DxTJu-VblBUVmeQHGaEKvtEzXTRHFSgSfbJIfP39okQ HTTP/1.1" 200 277
+2025-08-25 10:44:43 - INFO - 获取企微access_token成功
+2025-08-25 10:44:43 - INFO - 从CSV读取到 61 条目标日期数据
+2025-08-25 10:44:43 - INFO - 共需处理 61 个用户的数据
+2025-08-25 10:44:43 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=PnJWBzuuvSZtRJFijcE-0foH4y6JdOmtaqH-RXI7adRbMZr7urkoT9fvhm8yx6HQG8Ys8vp0wFmwj7KEkeGL64gmc9dpnmcTqEe0XBNUW_CUvQC-QkKk2cWs64_oKvMctfAXjPURsOjovSu7Q_jYPUOxfCsjhEHchxXFfwQX7jjQZt0-crYqKqFRPcshOBRXw9QQWrhtTIVXlthzavhO1A HTTP/1.1" 200 208
+2025-08-25 10:44:43 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=PnJWBzuuvSZtRJFijcE-0foH4y6JdOmtaqH-RXI7adRbMZr7urkoT9fvhm8yx6HQG8Ys8vp0wFmwj7KEkeGL64gmc9dpnmcTqEe0XBNUW_CUvQC-QkKk2cWs64_oKvMctfAXjPURsOjovSu7Q_jYPUOxfCsjhEHchxXFfwQX7jjQZt0-crYqKqFRPcshOBRXw9QQWrhtTIVXlthzavhO1A HTTP/1.1" 200 187
+2025-08-25 10:44:43 - INFO - 数据处理完成，共生成 61 条有效数据（所有数字字段已清洗）
+2025-08-25 10:44:43 - INFO - 准备写入第 1 批数据（共 61 条）
+2025-08-25 10:44:43 - DEBUG - 第一条记录详细数据: {
+  "姓名": [
+    {
+      "type": "text",
+      "text": "向旭林"
+    }
+  ],
+  "人员": [
+    {
+      "type": "user",
+      "user_id": "wobb8UCgAA23FC7b4LWuaaZpGqNWqQ_w"
+    }
+  ],
+  "记录日期": "1755619200000",
+  "新增客户数": 0,
+  "发送消息数": 0,
+  "累积客户群人数": 138,
+  "累积群消息数": 0,
+  "医院ID": [
+    {
+      "type": "text",
+      "text": "1"
+    }
+  ],
+  "部门ID": [
+    {
+      "type": "text",
+      "text": "21"
+    }
+  ],
+  "所属部门": [
+    {
+      "type": "text",
+      "text": "花都家庭医生/家医助手团队"
+    }
+  ]
+}
+2025-08-25 10:44:43 - DEBUG - 完整写入请求体: {
+  "action": "通用批量写入表单",
+  "company": "花都家庭医生",
+  "WordList": {
+    "docid": "dcijMKYnKxjShY-j07ZOHvts5m58JesjOINDiFoLNuZLGLvCpilhV5P9UjJ8ABc1b9d_tFBRu_Xvl8FvmlZk1jXA",
+    "sheet_id": "tPQ8b9",
+    "view_id": "vflTWJ",
+    "records": [
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "向旭林"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA23FC7b4LWuaaZpGqNWqQ_w"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 138,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "1"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "21"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/家医助手团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "邓稳"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAArQbT3FjiAsSWiAf-nA8SSg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 8,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "1"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "21"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/家医助手团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "刘倩媚"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAvJwu2L2gFKywQ8JdFGYb_g"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 3,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "23"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/第一团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "曾结华"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAA1H6PlaI-p_Ts6N6CXxfTA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 2,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "33"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/慢病、传防管理团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "潘俊玲"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAABD56gYWo4ia57yBvDVePTg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 8,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "31"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/慢病管理团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "张银"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAANG0AAVOFslWNlpx9p5bNFw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 146,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "24"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/第二团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "江志澎"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAhvvnbGZkJqBSKr5oILnsjg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 2020,
+        "累积群消息数": 9,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "27"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/第五团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "徐信仪"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAUPjeugLw1rP8b3uY4ROn2w"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 2,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "26"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/第四团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "王棠健"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAANT13MCi8dxcYrF5HeFywKw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 147,
+        "累积群消息数": 10,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "5"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "35"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/清布社区卫生服务中心/健康护航家医团队2"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "花山江医生（第五团队）"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAYLDK2_lqGQPG9_yDcT6DOg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 9,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "27"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/第五团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "邓琪欣"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA14GxUz9oQkGVa1n0R-3Sfg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 2,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "1"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "124"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/家医小团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "曾家欢"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAfva6d86SwWO7m_muNDfO3g"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 5,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "5"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "34"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/清布社区卫生服务中心/健康护航家医团队1"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "曾宝玲"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAshdnXjWYCiPkIydkfpeXDg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 2,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "5"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "41"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/清布社区卫生服务中心/巾帼使者家医团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "汤莉辉"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAuCzsfZb9ebmLehdbEP1_BA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 3,
+        "发送消息数": 0,
+        "累积客户群人数": 25,
+        "累积群消息数": 1,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "44"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第一团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "朱晓静"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAACrFvkM72NrvZiNUEe5J5xw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 6,
+        "发送消息数": 0,
+        "累积客户群人数": 62,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "45"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第二团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "韦佩珊"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAjcKkpq1ngqHbknuOWxvj2w"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 61,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "46"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第三团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "凌晓燕"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAE3oC-Jlv94MAaqiklCN1WA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 10,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "46"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第三团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "谭玉娟"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAETvkoHyXjlO7o8CYCws32w"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 132,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "47"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第四团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "宋跃飞"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAbPQDSOpL8Iq7RE__x-DxAg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 20,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "48"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第五团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "张映君"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAXSkIPProSL2YjIAe7FKjDQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 20,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "49"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/第六团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "谢芳"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAQxY0LSJswWYEhZWJlv1IBw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 35,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "11"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "105,127"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇花侨卫生院/管理员/花都家庭医生/花东镇花侨卫生院/第六团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "杨文俊"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAZW_XVFv4yBYZkoQS83h44A"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "53"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/京塘村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "曾佰潮"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAkodwOnIt9qqGiOHP8md-Mg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "54"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/水口营/四联村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "吴珊珊"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAo10trjzV3EBhSVigiMBJQQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "55"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/港头/吉星村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "黄敬钊"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAyjl5H5n2EzWxizODyN1uNw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "56"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/大龙村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "刘美红"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAbNWAIgGdNP1P8eLvEp3brg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "57"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/鸿鹤村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "卢兴旺"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAyzGLe71KyyKqxlA1GIn6QA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 5,
+        "发送消息数": 0,
+        "累积客户群人数": 9,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "58"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/莘田村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "谢文威"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAABWV_kOStB4xLkLQftkpJpw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 2,
+        "发送消息数": 0,
+        "累积客户群人数": 10,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "59"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/莘田二村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "刘玉梅"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA7wiN_aO1QeD6dhH0aqxitA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 154,
+        "累积群消息数": 3,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "61"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/杨三村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "黄婷女"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA7oCtCiuXik3FFluwQ5veKA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 2,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "62"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/镇东村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "黄灿辉"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAXvxuzNNk7TEZxCQfe1iUEw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "63"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/杨一村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "黄国威"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAWMj_0XguAREQ9Mq_y68C8g"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 109,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "64"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/杨二村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "江剑亮"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAo0fRpiuqs_vxhIfo6M2MzA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "65"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/望顶村团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "阮孟玲"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAWhYkItHTgAaY3O2osyRYmA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "66"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/北兴居委（村）团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "曾娜"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAhVkPPan2pVSJKNl4XNnq3w"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "67"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/慢病团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "黎秀荷"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAhQSI129GuOzknxsfN9nUOQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "10"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "68"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇北兴卫生院/儿保团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "彭慧萍"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAJJa_7WOkMucj9LMfjDLdmA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 6,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "80"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第11团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "常国荣"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAix4b_gQkpqwgFsV4-C2Ucg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "78"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第9团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "周宏"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA_pk75Rolvp3JWWUIaxR5XA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "72"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第3团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "雷军"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA18Ix0xGPmTK_Q7NRB2bVuQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "73"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第4团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "黄焕峰"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAj7rrGZghP2qSEJyjkU_ArQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 2,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "79"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第10团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "杨晓春"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA1RhLhTkUGd2lBHJG-NGWrw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 3,
+        "发送消息数": 0,
+        "累积客户群人数": 8,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "76"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第7团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "王淑杰"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAPMQ0pRq_kGASMaGSI_pCTg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 2,
+        "发送消息数": 0,
+        "累积客户群人数": 45,
+        "累积群消息数": 5,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "71"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/第2团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "陈佩芸"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAGqBYWtHoFm-5vnTH-_53Ew"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 8,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "2"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "82"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/天贵社区卫生服务中心/凤凰团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "温慧婷"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAaW-_nn-Q3GF968WaMFR4ww"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "2"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "87,126"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/天贵社区卫生服务中心/管理层/花都家庭医生/天贵社区卫生服务中心/光华团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "吴雁榕"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAbrt49GHekpBlMDYaWqVGkg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 2,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "2"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "87"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/天贵社区卫生服务中心/光华团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "花山徐医生（第四团队）"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAvMTxC-dnEAxzIhQ5sE1Xdg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "26"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院/第四团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "汤志琴"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAADxuVrG4CEvmDOnluKNiLMw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 10,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "12"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "96,129"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/炭步镇中心卫生院/第四团队/花都家庭医生/炭步镇中心卫生院/管理层"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "郭立雄"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA2tUjeTebJsWS9nUUAnHD9g"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 193,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "11"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "101"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇花侨卫生院/第一团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "叶东明"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAHa4Y-R42moxfAHT9eTzmEQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 17,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "11"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "102"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇花侨卫生院/第三团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "梁烨"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAweJmVtQKSpyQxBhEDMZ9rg"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 2,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "11"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "102"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇花侨卫生院/第三团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "林岳滨"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAg_bv_12fRTc95m4bUd8ppA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 135,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "11"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "103"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇花侨卫生院/第四团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "胡艳芳"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAABNdRWahtGNbazYnO536EsQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 2,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "11"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "105"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花东镇花侨卫生院/第六团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "清布家医温国丽团队"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAApLfqT6dqx5I43epXXus5nA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 152,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "5"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "43"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/清布社区卫生服务中心/宝贝卫士家医团队2"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "冯晓彤"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAxL7nug2wuZbxMWroPXJYMw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 2,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "4"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "111"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/新华社区卫生服务中心/第5团队"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "任伟鹏"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAf9BinJI6K-GHoiO5_GIAfQ"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 2,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "7"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "123"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花城社区卫生服务中心/管理者"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "清布家医熊耀端团队"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAA0mnEGlQoHCbAdb6FWW5Opw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 2,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "5"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "34"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/清布社区卫生服务中心/健康护航家医团队1"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "清布家医潘志懂团队"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAgLwB0fBzEgqPX_ljfIVs8g"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "5"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "39"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/清布社区卫生服务中心/医路相伴家医团队2"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "花山镇卫生院家庭医生"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAMRAvItmqGOgNT-HK4JeeDA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 4,
+        "发送消息数": 0,
+        "累积客户群人数": 0,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "13"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花山镇卫生院"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "张锦华"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAASzoh7u5ODvuxPNktii1uvw"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 1,
+        "发送消息数": 0,
+        "累积客户群人数": 9,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "125"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/管理层"
+          }
+        ]
+      },
+      {
+        "姓名": [
+          {
+            "type": "text",
+            "text": "陈建华"
+          }
+        ],
+        "人员": [
+          {
+            "type": "user",
+            "user_id": "wobb8UCgAAmSe9Q9Np0o7JaGNpKGYsnA"
+          }
+        ],
+        "记录日期": "1755619200000",
+        "新增客户数": 0,
+        "发送消息数": 0,
+        "累积客户群人数": 10,
+        "累积群消息数": 0,
+        "医院ID": [
+          {
+            "type": "text",
+            "text": "51"
+          }
+        ],
+        "部门ID": [
+          {
+            "type": "text",
+            "text": "125"
+          }
+        ],
+        "所属部门": [
+          {
+            "type": "text",
+            "text": "花都家庭医生/花都区第二人民医院/管理层"
+          }
+        ]
+      }
+    ]
+  }
+}
+2025-08-25 10:44:43 - DEBUG - Starting new HTTPS connection (1): smallwecom.yesboss.work:443
+2025-08-25 10:44:45 - DEBUG - https://smallwecom.yesboss.work:443 "POST /smarttable HTTP/1.1" 200 2280
+2025-08-25 10:44:45 - INFO - 请求耗时: 1495.97ms | 状态码: 200
+2025-08-25 10:44:45 - DEBUG - 响应内容: {"success":true,"message":"通用批量写入表单成功","data":{"errcode":0,"errmsg":"ok","records":[{"record_id":"rSdMLC","values":{}},{"record_id":"r8XSVI","values":{}},{"record_id":"reEXKe","values":{}},{"record_id":"rfZCA1","values":{}},{"record_id":"rvbPUt","values":{}},{"record_id":"r4uzJX","values":{}},{"record_id":"rbieIE","values":{}},{"record_id":"rU9rUP","values":{}},{"record_id":"rPvUYG","values":{}},{"record_id":"rB8th6","values":{}},{"record_id":"rAN0UX","values":{}},{"record_id":"r89gTV","values":
+2025-08-25 10:44:45 - INFO - ✅ 第 1 批写入成功
+2025-08-25 10:44:46 - INFO - 写入完成 | 成功: 61条, 失败: 0条
+2025-08-25 10:44:46 - INFO - 关闭网络会话
+2025-08-25 11:06:23 - INFO - 初始化CSV导入器（目标日期: 2025-08-20, 时间戳: 1755619200000）
+2025-08-25 11:06:23 - DEBUG - Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2025-08-25 11:06:23 - DEBUG - https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww6fffc827ac483f35&corpsecret=DxTJu-VblBUVmeQHGaEKvtEzXTRHFSgSfbJIfP39okQ HTTP/1.1" 200 277
+2025-08-25 11:06:23 - INFO - 获取企微access_token成功
+2025-08-25 11:06:23 - INFO - 从CSV读取到 61 条目标日期数据
+2025-08-25 11:06:23 - INFO - 共需处理 61 个用户的数据
+2025-08-25 11:06:23 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=2qRhZ654tuJClIX5hAv0HfONNF6_qgltDVLjFzWK8-oiZoVVoEonRk3y240LolPfQmyCL2dPVvnyNCvZgA8iCIcK7YKZej2BOXZaW6T671Khtb8pR6SgUQxGvZT0xFefDc0nKvzv6ETf-DIxRkDtJAcSqy2UNjUG_ckcYra9Ffvs0LYkOqD30kWbdGyetx1btFXygSu8dRpc4gS3z97kDg HTTP/1.1" 200 208
+2025-08-25 11:06:24 - DEBUG - https://qyapi.weixin.qq.com:443 "POST /cgi-bin/externalcontact/get_user_behavior_data?access_token=2qRhZ654tuJClIX5hAv0HfONNF6_qgltDVLjFzWK8-oiZoVVoEonRk3y240LolPfQmyCL2dPVvnyNCvZgA8iCIcK7YKZej2BOXZaW6T671Khtb8pR6SgUQxGvZT0xFefDc0nKvzv6ETf-DIxRkDtJAcSqy2UNjUG_ckcYra9Ffvs0LYkOqD30kWbdGyetx1btFXygSu8dRpc4gS3z97kDg HTTP/1.1" 200 187
+2025-08-25 11:06:24 - INFO - 数据处理完成，共生成 61 条有效数据（所有数字字段已清洗）
+2025-08-25 11:06:24 - INFO - 准备写入第 1 批数据（共 61 条）
+2025-08-25 11:06:24 - DEBUG - 第一条记录详细数据: {
+  "姓名": [
+    {
+      "type": "text",
+      "text": "向旭林"
+    }
+  ],
+  "人员": [
+    {
+      "type": "user",
+      "user_id": "wobb8UCgAA23FC7b4LWuaaZpGqNWqQ_w"
+    }
+  ],
+  "记录日期": "1755619200000",
+  "新增客户数": 0,
+  "发送消息数": 0,
+  "累积客户群人数": 138,
+  "累积群消息数": 0,
+  "医院ID": [
+    {
+      "type": "text",
+      "text": "1"
+    }
+  ],
+  "部门ID": [
+    {
+      "type": "text",
+      "text": "21"
+    }
+  ],
+  "所属部门": [
+    {
+      "type": "text",
+      "text": "花都家庭医生/家医助手团队"
+    }
+  ]
+}
+2025-08-25 11:06:24 - DEBUG - 完整写入请求体: {
+  "action": "通用批量写入表单",
+  "company": "花都家庭医生",
+  "WordList": {
+    "docid": "dcijMKYnKxjShY-j07ZOHvts5m58JesjOINDiFoLNuZLGLvCpilhV5P9UjJ8ABc1b9d_tFBRu_Xvl8FvmlZk1jXA",
+    "sheet_id": "tPQ8b9",
+    "view_id": "vflTWJ",
+    "records": [
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "向旭林"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAA23FC7b4LWuaaZpGqNWqQ_w"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 138,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "1"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "21"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/家医助手团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "邓稳"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAArQbT3FjiAsSWiAf-nA8SSg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 8,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "1"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "21"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/家医助手团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "刘倩媚"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAvJwu2L2gFKywQ8JdFGYb_g"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 3,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "13"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "23"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花山镇卫生院/第一团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "曾结华"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAA1H6PlaI-p_Ts6N6CXxfTA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 2,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "13"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "33"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花山镇卫生院/慢病、传防管理团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "潘俊玲"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAABD56gYWo4ia57yBvDVePTg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 8,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "13"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "31"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花山镇卫生院/慢病管理团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "张银"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAANG0AAVOFslWNlpx9p5bNFw"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 146,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "13"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "24"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花山镇卫生院/第二团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "江志澎"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAhvvnbGZkJqBSKr5oILnsjg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 2020,
+          "累积群消息数": 9,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "13"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "27"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花山镇卫生院/第五团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "徐信仪"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAUPjeugLw1rP8b3uY4ROn2w"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 2,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "13"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "26"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花山镇卫生院/第四团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "王棠健"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAANT13MCi8dxcYrF5HeFywKw"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 147,
+          "累积群消息数": 10,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "5"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "35"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/清布社区卫生服务中心/健康护航家医团队2"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "花山江医生（第五团队）"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAYLDK2_lqGQPG9_yDcT6DOg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 9,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "13"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "27"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花山镇卫生院/第五团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "邓琪欣"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAA14GxUz9oQkGVa1n0R-3Sfg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 2,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "1"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "124"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/家医小团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "曾家欢"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAfva6d86SwWO7m_muNDfO3g"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 5,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "5"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "34"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/清布社区卫生服务中心/健康护航家医团队1"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "曾宝玲"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAshdnXjWYCiPkIydkfpeXDg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 2,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "5"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "41"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/清布社区卫生服务中心/巾帼使者家医团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "汤莉辉"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAuCzsfZb9ebmLehdbEP1_BA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 3,
+          "发送消息数": 0,
+          "累积客户群人数": 25,
+          "累积群消息数": 1,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "7"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "44"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花城社区卫生服务中心/第一团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "朱晓静"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAACrFvkM72NrvZiNUEe5J5xw"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 6,
+          "发送消息数": 0,
+          "累积客户群人数": 62,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "7"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "45"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花城社区卫生服务中心/第二团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "韦佩珊"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAjcKkpq1ngqHbknuOWxvj2w"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 61,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "7"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "46"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花城社区卫生服务中心/第三团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "凌晓燕"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAE3oC-Jlv94MAaqiklCN1WA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 10,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "7"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "46"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花城社区卫生服务中心/第三团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "谭玉娟"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAETvkoHyXjlO7o8CYCws32w"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 132,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "7"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "47"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花城社区卫生服务中心/第四团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "宋跃飞"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAbPQDSOpL8Iq7RE__x-DxAg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 20,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "7"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "48"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花城社区卫生服务中心/第五团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "张映君"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAXSkIPProSL2YjIAe7FKjDQ"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 20,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "7"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "49"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花城社区卫生服务中心/第六团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "谢芳"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAQxY0LSJswWYEhZWJlv1IBw"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 35,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "11"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "105,127"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇花侨卫生院/管理员/花都家庭医生/花东镇花侨卫生院/第六团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "杨文俊"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAZW_XVFv4yBYZkoQS83h44A"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "53"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/京塘村团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "曾佰潮"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAkodwOnIt9qqGiOHP8md-Mg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "54"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/水口营/四联村团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "吴珊珊"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAo10trjzV3EBhSVigiMBJQQ"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "55"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/港头/吉星村团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "黄敬钊"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAyjl5H5n2EzWxizODyN1uNw"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "56"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/大龙村团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "刘美红"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAbNWAIgGdNP1P8eLvEp3brg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "57"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/鸿鹤村团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "卢兴旺"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAyzGLe71KyyKqxlA1GIn6QA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 5,
+          "发送消息数": 0,
+          "累积客户群人数": 9,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "58"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/莘田村团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "谢文威"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAABWV_kOStB4xLkLQftkpJpw"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 2,
+          "发送消息数": 0,
+          "累积客户群人数": 10,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "59"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/莘田二村团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "刘玉梅"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAA7wiN_aO1QeD6dhH0aqxitA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 154,
+          "累积群消息数": 3,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "61"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/杨三村团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "黄婷女"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAA7oCtCiuXik3FFluwQ5veKA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 2,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "62"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/镇东村团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "黄灿辉"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAXvxuzNNk7TEZxCQfe1iUEw"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "63"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/杨一村团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "黄国威"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAWMj_0XguAREQ9Mq_y68C8g"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 109,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "64"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/杨二村团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "江剑亮"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAo0fRpiuqs_vxhIfo6M2MzA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "65"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/望顶村团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "阮孟玲"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAWhYkItHTgAaY3O2osyRYmA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "66"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/北兴居委（村）团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "曾娜"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAhVkPPan2pVSJKNl4XNnq3w"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "67"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/慢病团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "黎秀荷"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAhQSI129GuOzknxsfN9nUOQ"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "68"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇北兴卫生院/儿保团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "彭慧萍"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAJJa_7WOkMucj9LMfjDLdmA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 6,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "51"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "80"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花都区第二人民医院/第11团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "常国荣"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAix4b_gQkpqwgFsV4-C2Ucg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "51"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "78"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花都区第二人民医院/第9团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "周宏"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAA_pk75Rolvp3JWWUIaxR5XA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "51"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "72"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花都区第二人民医院/第3团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "雷军"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAA18Ix0xGPmTK_Q7NRB2bVuQ"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "51"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "73"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花都区第二人民医院/第4团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "黄焕峰"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAj7rrGZghP2qSEJyjkU_ArQ"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 2,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "51"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "79"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花都区第二人民医院/第10团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "杨晓春"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAA1RhLhTkUGd2lBHJG-NGWrw"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 3,
+          "发送消息数": 0,
+          "累积客户群人数": 8,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "51"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "76"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花都区第二人民医院/第7团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "王淑杰"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAPMQ0pRq_kGASMaGSI_pCTg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 2,
+          "发送消息数": 0,
+          "累积客户群人数": 45,
+          "累积群消息数": 5,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "51"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "71"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花都区第二人民医院/第2团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "陈佩芸"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAGqBYWtHoFm-5vnTH-_53Ew"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 8,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "2"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "82"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/天贵社区卫生服务中心/凤凰团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "温慧婷"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAaW-_nn-Q3GF968WaMFR4ww"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "2"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "87,126"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/天贵社区卫生服务中心/管理层/花都家庭医生/天贵社区卫生服务中心/光华团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "吴雁榕"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAbrt49GHekpBlMDYaWqVGkg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 2,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "2"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "87"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/天贵社区卫生服务中心/光华团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "花山徐医生（第四团队）"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAvMTxC-dnEAxzIhQ5sE1Xdg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "13"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "26"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花山镇卫生院/第四团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "汤志琴"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAADxuVrG4CEvmDOnluKNiLMw"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 10,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "12"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "96,129"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/炭步镇中心卫生院/第四团队/花都家庭医生/炭步镇中心卫生院/管理层"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "郭立雄"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAA2tUjeTebJsWS9nUUAnHD9g"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 193,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "11"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "101"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇花侨卫生院/第一团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "叶东明"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAHa4Y-R42moxfAHT9eTzmEQ"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 17,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "11"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "102"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇花侨卫生院/第三团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "梁烨"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAweJmVtQKSpyQxBhEDMZ9rg"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 2,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "11"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "102"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇花侨卫生院/第三团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "林岳滨"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAg_bv_12fRTc95m4bUd8ppA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 135,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "11"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "103"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇花侨卫生院/第四团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "胡艳芳"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAABNdRWahtGNbazYnO536EsQ"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 2,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "11"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "105"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花东镇花侨卫生院/第六团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "清布家医温国丽团队"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAApLfqT6dqx5I43epXXus5nA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 152,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "5"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "43"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/清布社区卫生服务中心/宝贝卫士家医团队2"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "冯晓彤"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAxL7nug2wuZbxMWroPXJYMw"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 2,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "4"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "111"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/新华社区卫生服务中心/第5团队"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "任伟鹏"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAf9BinJI6K-GHoiO5_GIAfQ"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 2,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "7"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "123"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花城社区卫生服务中心/管理者"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "清布家医熊耀端团队"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAA0mnEGlQoHCbAdb6FWW5Opw"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 2,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "5"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "34"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/清布社区卫生服务中心/健康护航家医团队1"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "清布家医潘志懂团队"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAgLwB0fBzEgqPX_ljfIVs8g"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "5"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "39"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/清布社区卫生服务中心/医路相伴家医团队2"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "花山镇卫生院家庭医生"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAMRAvItmqGOgNT-HK4JeeDA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 4,
+          "发送消息数": 0,
+          "累积客户群人数": 0,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "13"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "13"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花山镇卫生院"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "张锦华"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAASzoh7u5ODvuxPNktii1uvw"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 1,
+          "发送消息数": 0,
+          "累积客户群人数": 9,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "51"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "125"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花都区第二人民医院/管理层"
+            }
+          ]
+        }
+      },
+      {
+        "values": {
+          "姓名": [
+            {
+              "type": "text",
+              "text": "陈建华"
+            }
+          ],
+          "人员": [
+            {
+              "type": "user",
+              "user_id": "wobb8UCgAAmSe9Q9Np0o7JaGNpKGYsnA"
+            }
+          ],
+          "记录日期": "1755619200000",
+          "新增客户数": 0,
+          "发送消息数": 0,
+          "累积客户群人数": 10,
+          "累积群消息数": 0,
+          "医院ID": [
+            {
+              "type": "text",
+              "text": "51"
+            }
+          ],
+          "部门ID": [
+            {
+              "type": "text",
+              "text": "125"
+            }
+          ],
+          "所属部门": [
+            {
+              "type": "text",
+              "text": "花都家庭医生/花都区第二人民医院/管理层"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2025-08-25 11:06:24 - DEBUG - Starting new HTTPS connection (1): smallwecom.yesboss.work:443
+2025-08-25 11:06:26 - DEBUG - https://smallwecom.yesboss.work:443 "POST /smarttable HTTP/1.1" 200 27655
+2025-08-25 11:06:26 - INFO - 请求耗时: 2068.31ms | 状态码: 200
+2025-08-25 11:06:26 - DEBUG - 响应内容: {"success":true,"message":"通用批量写入表单成功","data":{"errcode":0,"errmsg":"ok","records":[{"record_id":"rX3YOJ","values":{"人员":[{"type":"user","user_id":"wobb8UCgAA23FC7b4LWuaaZpGqNWqQ_w"}],"医院ID":[{"text":"1","type":"text"}],"发送消息数":[],"姓名":[{"text":"向旭林","type":"text"}],"所属部门":[{"text":"花都家庭医生/家医助手团队","type":"text"}],"新增客户数":[],"累积客户群人数":[],"累积群消息数":[],"记录日期":[],"部门ID":[{"text":"21","type":"text"}]}},{"record_id":"rQesh1","values":{"人员":[{"type":"user","user_id":"wobb8UCgAArQbT3FjiAsSWiAf-nA8SSg"}],
+2025-08-25 11:06:26 - INFO - ✅ 第 1 批写入成功
+2025-08-25 11:06:27 - INFO - 写入完成 | 成功: 61条, 失败: 0条
+2025-08-25 11:06:27 - INFO - 关闭网络会话

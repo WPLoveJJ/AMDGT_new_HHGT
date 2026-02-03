@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+*.log
+# 如果不需要上传模型权重，也可以忽略
+*.pth
